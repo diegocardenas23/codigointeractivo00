@@ -1,0 +1,18 @@
+
+<h2> <ul>
+   <li>
+  <a [routerLink]="['/']"> HOME </a> 
+</li>
+<li>
+  <a [routerLink]="['/inicio']">INICIO  </a> 
+</li>
+<li>
+  <a [routerLink]="['/perfil']">PERFIL</a>
+</li><li>
+  <a [routerLink]="['/perfil', 700]">Un parametro</a>
+</li><li>
+  <a [routerLink]="['/perfil', 900, 1200]">Dos parametros</a>
+</li>
+</ul> 
+</h2>
+<router-outlet></router-outlet>
